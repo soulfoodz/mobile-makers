@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52403DBA17E8E59E00AB691F /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 52403DB917E8E59E00AB691F /* Judge.m */; };
+		52403DBD17E8F38A00AB691F /* ComputerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 52403DBC17E8F38A00AB691F /* ComputerHand.m */; };
 		9343F5881728A08D009085AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5871728A08D009085AA /* UIKit.framework */; };
 		9343F58A1728A08D009085AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F5891728A08D009085AA /* Foundation.framework */; };
 		9343F58C1728A08D009085AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9343F58B1728A08D009085AA /* CoreGraphics.framework */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52403DB817E8E59E00AB691F /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		52403DB917E8E59E00AB691F /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
+		52403DBB17E8F38A00AB691F /* ComputerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerHand.h; sourceTree = "<group>"; };
+		52403DBC17E8F38A00AB691F /* ComputerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerHand.m; sourceTree = "<group>"; };
 		9343F5841728A08D009085AA /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9343F5871728A08D009085AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9343F5891728A08D009085AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +94,10 @@
 				9343F59F1728A08D009085AA /* ViewController.h */,
 				9343F5A01728A08D009085AA /* ViewController.m */,
 				9343F5A21728A08D009085AA /* ViewController.xib */,
+				52403DB817E8E59E00AB691F /* Judge.h */,
+				52403DB917E8E59E00AB691F /* Judge.m */,
+				52403DBB17E8F38A00AB691F /* ComputerHand.h */,
+				52403DBC17E8F38A00AB691F /* ComputerHand.m */,
 				9343F58E1728A08D009085AA /* Supporting Files */,
 			);
 			path = RockPaperScissors;
@@ -176,6 +186,8 @@
 				9343F5941728A08D009085AA /* main.m in Sources */,
 				9343F5981728A08D009085AA /* AppDelegate.m in Sources */,
 				9343F5A11728A08D009085AA /* ViewController.m in Sources */,
+				52403DBA17E8E59E00AB691F /* Judge.m in Sources */,
+				52403DBD17E8F38A00AB691F /* ComputerHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				9343F5A91728A08D009085AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
